@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct pfartists_swiftApp: App {
-    var body: some Scene {
+  var body: some Scene {
         WindowGroup {
             ContentView()
         }
