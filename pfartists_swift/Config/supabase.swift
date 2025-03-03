@@ -1,74 +1,95 @@
-import Foundation
 import Supabase
+import Foundation
+import SwiftDotenv
 
-struct SupClient {
-  
+class SupClient {
   var supabaseClientId: String?
-      var supabaseKey: String?
-      var client: SupabaseClient?
+  var supabaseKey: String?
+  var client: SupabaseClient?
   
   enum UserResult {
     case user(UserType)
     case noUser
   }
   
-  mutating func initializeSupabaseClient() {
-          guard let clientId = KeychainManager.shared.load(key: "supabaseClientId"),
-                let key = KeychainManager.shared.load(key: "supabaseKey"),
-                let url = URL(string: clientId) else {
-              print("Failed to load Supabase credentials or create URL.")
-              return
-          }
-          self.supabaseClientId = clientId
-          self.supabaseKey = key
-          self.client = SupabaseClient(supabaseURL: url, supabaseKey: key)
-      }
-  
-  mutating func userExist() async -> User? {
-    initializeSupabaseClient()
-    
-      do {
-        let user: User? = try await client?.auth.user()
-          if let user = user {
-              print("User: \(user)")
-          } else {
-              print("User is nil")
-          }
-      } catch {
-          print("An error occurred: \(error.localizedDescription)")
-      }
-  return nil
+  init() {
+    if let config = loadConfig(),
+       let clientId = config["SupabaseURL"] as? String, let key = config["SupabaseKey"] as? String {
+      self.supabaseClientId = clientId
+      self.supabaseKey = key
+      print("Poświadczenia Supabase zostały załadowane pomyślnie.")
+    } else {
+      print("Nie udało się załadować poświadczeń Supabase z konfiguracji.")
+    }
   }
   
-  mutating func userData() async -> UserResult {
-    let user: User? = await userExist();
+  func initializeSupabaseClient() {
+    guard let clientId = supabaseClientId, let key = supabaseKey, let url = URL(string: clientId) else {
+      print("Brak wymaganych poświadczeń do inicjalizacji SupabaseClient.")
+      return
+    }
     
-    if let user = user {
-      print("User: \(user)")
+    self.client = SupabaseClient(supabaseURL: url, supabaseKey: key)
+    print("SupabaseClient został zainicjalizowany pomyślnie.")
+  }
+  
+  private func loadConfig() -> [String: Any]? {
+    if let url = Bundle.main.url(forResource: "Config", withExtension: "plist"),
+       let data = try? Data(contentsOf: url),
+       let plist = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil),
+       let config = plist as? [String: Any] {
+      return config
+    }
+    return nil
+  }
+    
+  func userExist() async -> User? {
+    initializeSupabaseClient()
+    
+    guard let client = client else {
+      print("SupabaseClient nie został zainicjalizowany.")
+      return nil
+    }
+    
+    do {
+      let user: User? = try await client.auth.user()
+      if let user = user {
+        print("Użytkownik: \(user)")
+        return user
+      } else {
+        print("Brak zalogowanego użytkownika.")
+      }
+    } catch {
+      print("Wystąpił błąd: \(error.localizedDescription)")
+    }
+    
+    return nil
+  }
+    
+  func userData() async -> UserResult {
+    guard let user = await userExist() else {
+      print("Brak zalogowanego użytkownika.")
+      return .noUser
+    }
+    
+    do {
+      let data: PostgrestResponse<UserType>? = try await client?
+        .from("Users")
+        .select("*")
+        .eq("id", value: user.id)
+        .limit(1)
+        .single()
+        .execute()
       
-      do {
-        let data: PostgrestResponse<UserType>? = try await client?
-          .from("Users")
-          .select("*")
-          .eq("id", value: user.id)
-          .limit(1)
-          .single()
-          .execute()
-        
-        
-        if let _users = data?.value {
-          return .user(_users)
-        } else {
-          print("The user exists but has no data")
-          return .noUser
-        }
-      } catch {
-        print("An error occurred while fetching user data: \(error.localizedDescription)")
+      if let userData = data?.value {
+        print("Dane użytkownika zostały pobrane pomyślnie.")
+        return .user(userData)
+      } else {
+        print("Użytkownik istnieje, ale brak danych.")
         return .noUser
       }
-      
-    } else {
-      print("User is nil")
+    } catch {
+      print("Wystąpił błąd podczas pobierania danych użytkownika: \(error.localizedDescription)")
       return .noUser
     }
   }

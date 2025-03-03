@@ -1,39 +1,53 @@
-import Security
 import Foundation
 
 class KeychainManager {
+  static let shared = KeychainManager()
 
-    static let shared = KeychainManager()
-    private init() {}
+  func save(key: String, value: String) -> Bool {
+    let data = Data(value.utf8)
+    let query: [String: Any] = [
+      kSecClass as String: kSecClassGenericPassword,
+      kSecAttrService as String: "com.jukialen.pfartists_swift", // Użyj tej samej nazwy usługi, którą masz w Keychain
+      kSecAttrAccount as String: key,
+      kSecValueData as String: data
+    ]
 
-    func load(key: String) -> String? {
-        let query: [String: Any] = [
-            kSecClass as String             : kSecClassGenericPassword,
-            kSecAttrService as String       : Bundle.main.bundleIdentifier ?? "com.pfartists_swift",
-            kSecAttrAccount as String       : key,
-            kSecReturnData as String        : true,
-            kSecMatchLimit as String        : kSecMatchLimitOne
-        ]
+    // Usuń istniejący element, jeśli istnieje
+    SecItemDelete(query as CFDictionary)
+    let status = SecItemAdd(query as CFDictionary, nil)
+    return status == errSecSuccess
+  }
 
-        var dataTypeRef: AnyObject? = nil
-        let status = SecItemCopyMatching(query as CFDictionary, &dataTypeRef)
+  func load(key: String) -> String? {
+    let query: [String: Any] = [
+      kSecClass as String: kSecClassGenericPassword,
+      kSecAttrService as String: "com.jukialen.pfartists_swift", // Użyj tej samej nazwy usługi, którą masz w Keychain
+      kSecAttrAccount as String: key,
+      kSecReturnData as String: true,
+      kSecMatchLimit as String: kSecMatchLimitOne
+    ]
 
-        if status == errSecSuccess,
-           let data = dataTypeRef as? Data,
-           let result = String(data: data, encoding: .utf8) {
-            return result
-        }
-        return nil
+    var dataTypeRef: AnyObject? = nil
+    let status = SecItemCopyMatching(query as CFDictionary, &dataTypeRef)
+
+    if status == errSecSuccess,
+       let data = dataTypeRef as? Data,
+       let result = String(data: data, encoding: .utf8) {
+        return result
+    } else {
+        print("Keychain read failed with error \(status)")
     }
+    return nil
+  }
+ 
+  func delete(key: String) -> Bool {
+    let query: [String: Any] = [
+      kSecClass as String             : kSecClassGenericPassword,
+      kSecAttrService as String       : Bundle.main.bundleIdentifier ?? "com.jukialen.pfartists_swift",
+      kSecAttrAccount as String       : key
+    ]
 
-    func delete(key: String) -> Bool {
-        let query: [String: Any] = [
-            kSecClass as String             : kSecClassGenericPassword,
-            kSecAttrService as String       : Bundle.main.bundleIdentifier ?? "com.pfartists_swift",
-            kSecAttrAccount as String       : key
-        ]
-
-        let status = SecItemDelete(query as CFDictionary)
-        return status == errSecSuccess
-    }
+    let status = SecItemDelete(query as CFDictionary)
+    return status == errSecSuccess
+  }
 }

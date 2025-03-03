@@ -4,6 +4,8 @@
 
 ## User settings
 xcuserdata/
+.env
+Config.plist
 
 ## Obj-C/Swift specific
 *.hmap
