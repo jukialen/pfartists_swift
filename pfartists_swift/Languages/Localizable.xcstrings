@@ -9,6 +9,18 @@
             "state" : "translated",
             "value" : "Privacy Policy"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プライバシーポリシー"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polityką Prywatności"
+          }
         }
       }
     },
@@ -19,6 +31,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Current e-mail"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のメール"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualny e-mail"
           }
         }
       }
@@ -31,6 +55,18 @@
             "state" : "translated",
             "value" : "Repeat new password"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいパスポートが繰り返します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powtórz nowe hasło"
+          }
         }
       }
     },
@@ -41,6 +77,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change e-mail"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールが変わります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień adres e-mail"
           }
         }
       }
@@ -53,6 +101,18 @@
             "state" : "translated",
             "value" : "Change password"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のパスポート入ります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień hasło"
+          }
         }
       }
     },
@@ -63,6 +123,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter current password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のパスポート入ります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz aktualne hasło"
           }
         }
       }
@@ -75,6 +147,18 @@
             "state" : "translated",
             "value" : "current plan"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在の計画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualny plan"
+          }
         }
       }
     },
@@ -85,6 +169,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter new password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいパスポートが入ります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz nowe hasło"
           }
         }
       }
@@ -97,6 +193,18 @@
             "state" : "translated",
             "value" : "Enter old password"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いがパスポートが入ります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz stare hasło"
+          }
         }
       }
     },
@@ -107,6 +215,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Subscription"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サブスクリプション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subskrypcja"
           }
         }
       }
@@ -119,6 +239,18 @@
             "state" : "translated",
             "value" : "Gallery"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ギャラリー"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeria"
+          }
         }
       }
     },
@@ -129,6 +261,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "General"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne"
           }
         }
       }
@@ -141,6 +285,18 @@
             "state" : "translated",
             "value" : "Group name"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Group name"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nazwa grupy"
+          }
         }
       }
     },
@@ -151,6 +307,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create a group"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a group"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stwórz grupę"
           }
         }
       }
@@ -163,6 +331,18 @@
             "state" : "translated",
             "value" : "Animations"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animacje"
+          }
         }
       }
     },
@@ -170,6 +350,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anime"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメ"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anime"
@@ -185,6 +377,18 @@
             "state" : "translated",
             "value" : "Categories"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部分け"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorie"
+          }
         }
       }
     },
@@ -195,6 +399,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comics"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コミック"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komiksy"
           }
         }
       }
@@ -207,6 +423,18 @@
             "state" : "translated",
             "value" : "Drawings"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rysunki"
+          }
         }
       }
     },
@@ -217,6 +445,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorite friends"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フェイバリットの友達"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulubieni znajomi"
           }
         }
       }
@@ -229,6 +469,18 @@
             "state" : "translated",
             "value" : "Adding a group"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "団体が増設"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj grupę"
+          }
         }
       }
     },
@@ -236,6 +488,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マンガ"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manga"
@@ -251,6 +515,18 @@
             "state" : "translated",
             "value" : "Others"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "他"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inne"
+          }
         }
       }
     },
@@ -261,6 +537,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographs"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografie"
           }
         }
       }
@@ -273,6 +561,18 @@
             "state" : "translated",
             "value" : "Photos"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォト"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcia"
+          }
         }
       }
     },
@@ -283,6 +583,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Realistic"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写実的"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Realistyczne"
           }
         }
       }
@@ -295,6 +607,18 @@
             "state" : "translated",
             "value" : "Videos"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filmy"
+          }
         }
       }
     },
@@ -305,6 +629,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り止める"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
           }
         }
       }
@@ -317,6 +653,18 @@
             "state" : "translated",
             "value" : "Change"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変わります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień"
+          }
         }
       }
     },
@@ -327,6 +675,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "言語"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Język"
           }
         }
       }
@@ -339,6 +699,18 @@
             "state" : "translated",
             "value" : "Choose tag"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグが選ぶ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz tag"
+          }
         }
       }
     },
@@ -349,6 +721,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit comment"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コメントがエディト"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edycja komentarza"
           }
         }
       }
@@ -361,6 +745,18 @@
             "state" : "translated",
             "value" : "Comments"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コメント"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komentarze"
+          }
         }
       }
     },
@@ -371,6 +767,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete comment"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コメントが消す"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń komentarz?"
           }
         }
       }
@@ -383,6 +791,18 @@
             "state" : "translated",
             "value" : "Adding description for new comment"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいファイルに叙述立項"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodanie opisu dla nowego commentarza"
+          }
         }
       }
     },
@@ -393,6 +813,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adding a comment"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コメントが付け加えます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj komentarz"
           }
         }
       }
@@ -405,6 +837,18 @@
             "state" : "translated",
             "value" : "Write new comment"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいコメントが書きます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz nowy komentarz"
+          }
         }
       }
     },
@@ -415,6 +859,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No comments"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コメントがありません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak komentarzy"
           }
         }
       }
@@ -427,6 +883,18 @@
             "state" : "translated",
             "value" : "Reply"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答えます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpowiedź"
+          }
         }
       }
     },
@@ -437,6 +905,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaktualizuj"
           }
         }
       }
@@ -449,6 +929,18 @@
             "state" : "translated",
             "value" : "d"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dni temu"
+          }
         }
       }
     },
@@ -459,6 +951,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "h"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "godz. temu"
           }
         }
       }
@@ -471,6 +975,18 @@
             "state" : "translated",
             "value" : "m"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min. temu"
+          }
         }
       }
     },
@@ -482,6 +998,18 @@
             "state" : "translated",
             "value" : "s"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "秒"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sek. temu"
+          }
         }
       }
     },
@@ -489,6 +1017,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "年"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "."
@@ -504,6 +1044,18 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń"
+          }
         }
       }
     },
@@ -514,6 +1066,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Are you sure? You won't can undo this action afterwards."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "違いないですか。この作用が取り消せません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jesteś pewien/pewna? Nie będziesz mógł/mogła tego cofnić."
           }
         }
       }
@@ -526,6 +1090,18 @@
             "state" : "translated",
             "value" : "Deleting the account"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アカウントが消してます。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuwanie konta"
+          }
         }
       }
     },
@@ -536,6 +1112,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete the account"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アカウントが消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń konto"
           }
         }
       }
@@ -548,6 +1136,18 @@
             "state" : "translated",
             "value" : "The file has deleted."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルが消しました。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunięto plik"
+          }
         }
       }
     },
@@ -558,6 +1158,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deleting the file."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルが消してます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuwanie pliku."
           }
         }
       }
@@ -570,6 +1182,18 @@
             "state" : "translated",
             "value" : "Deletion"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń"
+          }
         }
       }
     },
@@ -580,6 +1204,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deleting"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消してます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuwanie"
           }
         }
       }
@@ -592,6 +1228,18 @@
             "state" : "translated",
             "value" : "Are you sure? You can't undo this action afterwards."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure? You can't undo this action afterwards."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jesteś pewien? Po wykonaniu tej czynności nie można jej cofnąć."
+          }
         }
       }
     },
@@ -602,6 +1250,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete File"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルが消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunięcie pliku"
           }
         }
       }
@@ -614,6 +1274,18 @@
             "state" : "translated",
             "value" : "The post has deleted."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "掲示が消しました。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunięto post."
+          }
         }
       }
     },
@@ -624,6 +1296,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deleting the post."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "掲示が消してます。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuwanie postu."
           }
         }
       }
@@ -636,6 +1320,18 @@
             "state" : "translated",
             "value" : "Delete the post"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "掲示が消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunięcie pliku"
+          }
         }
       }
     },
@@ -646,6 +1342,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Description"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "叙述"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opis"
           }
         }
       }
@@ -658,6 +1366,18 @@
             "state" : "translated",
             "value" : "menu admin for the description"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "叙述のメニューのアドミン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "menu admina dla opisu"
+          }
         }
       }
     },
@@ -668,6 +1388,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaktualizuj"
           }
         }
       }
@@ -680,6 +1412,18 @@
             "state" : "translated",
             "value" : "field for new description"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい叙述の団体の場"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pole dla nowego opisu grupy"
+          }
         }
       }
     },
@@ -690,6 +1434,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "new description of group"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい叙述の団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nowy opis grupy"
           }
         }
       }
@@ -702,6 +1458,18 @@
             "state" : "translated",
             "value" : "Edit"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エディト"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj"
+          }
         }
       }
     },
@@ -712,6 +1480,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The verification code is expired or invalid. Please click the button to send new email verification link again."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "認証コードの有効期限が切れているか、無効になっています。ボタンをクリックして、新しい確認用Eメールリンクを再度送信してください。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kod weryfikacyjny wygasł lub jest nieważny. Proszę kliknąć przycisk, aby ponownie wysłać nowy link weryfikacyjny e-mailem."
           }
         }
       }
@@ -724,6 +1504,18 @@
             "state" : "translated",
             "value" : "Please check your email and click the link in it."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールをご確認の上、その中にあるリンクをクリックしてください。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proszę sprawdzić swoją skrzynkę e-mailową i kliknąć w link w nim zawarty."
+          }
         }
       }
     },
@@ -734,6 +1526,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You verified your e-mail."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールを確認しました。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zweryfikowałeś swój e-mail."
           }
         }
       }
@@ -746,6 +1550,18 @@
             "state" : "translated",
             "value" : "Try again or check your internet connection."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遣り返すかインターネット接続が見えてください。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spróbuj ponownie lub sprawdź połączenie z internetem"
+          }
         }
       }
     },
@@ -753,6 +1569,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FAQ"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FAQ"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "FAQ"
@@ -768,6 +1596,18 @@
             "state" : "translated",
             "value" : "button to reset the button"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "button to reset the button"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "przycisk do resetowania hasła"
+          }
         }
       }
     },
@@ -778,6 +1618,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please enter your e-mail."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter your e-mail."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz adres e-mail."
           }
         }
       }
@@ -790,6 +1642,18 @@
             "state" : "translated",
             "value" : "Check your mailbox."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your mailbox."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprawdź swoją skrzynkę mailową."
+          }
         }
       }
     },
@@ -800,6 +1664,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Did you forget your password?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Did you forget your password?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapomniałeś/aś hasła?"
           }
         }
       }
@@ -812,6 +1688,18 @@
             "state" : "translated",
             "value" : "By signing up, you agree to our"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録することにより、お客様は当社の"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejestrując się, zgadzasz się z naszymi "
+          }
         }
       }
     },
@@ -822,6 +1710,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " and "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "および"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " i "
           }
         }
       }
@@ -834,6 +1734,18 @@
             "state" : "translated",
             "value" : "Terms of Service"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "利用規約"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warunkami Świadczenia Usług"
+          }
         }
       }
     },
@@ -844,6 +1756,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Already have an account? "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すでにアカウントをお持ちの方？"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masz już konto? "
           }
         }
       }
@@ -856,6 +1780,18 @@
             "state" : "translated",
             "value" : "Don't you have an account? "
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アカウントをお持ちでない方？"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie masz jeszcze konta? "
+          }
         }
       }
     },
@@ -867,6 +1803,18 @@
             "state" : "translated",
             "value" : "Register"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録してます"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zarejestruj"
+          }
         }
       }
     },
@@ -874,6 +1822,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "に同意したものとみなされます。"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "."
@@ -889,6 +1849,18 @@
             "state" : "translated",
             "value" : "E-mail"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メール"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail"
+          }
         }
       }
     },
@@ -899,6 +1871,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I forgot my password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポートが忘れました"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapomniałam/em hasła."
           }
         }
       }
@@ -911,6 +1895,18 @@
             "state" : "translated",
             "value" : "I'm registering you..."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録してます。。。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejestruję cię..."
+          }
         }
       }
     },
@@ -921,6 +1917,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Login"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaloguj"
           }
         }
       }
@@ -933,6 +1941,18 @@
             "state" : "translated",
             "value" : "User doesn't exist."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザーは生きません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Użytkownik nie istnieje."
+          }
         }
       }
     },
@@ -943,6 +1963,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポート"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło"
           }
         }
       }
@@ -955,6 +1987,18 @@
             "state" : "translated",
             "value" : "Or login via:"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それともで、経由でログインします："
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lub zaloguj się za pomocą:"
+          }
         }
       }
     },
@@ -966,16 +2010,40 @@
             "state" : "translated",
             "value" : "Or register yourself using:"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それともで、使って登録します："
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lub zarejestruj się za pomocą:"
+          }
         }
       }
     },
-    "Form.setErrorMessage" : {
+    "Form.setErrorMessageCreate" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : " We weren't able to register you."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録することが出来ません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie mogliśmy Cię zarejestrować."
           }
         }
       }
@@ -988,6 +2056,18 @@
             "state" : "translated",
             "value" : "You're logged in"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン中している。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostałaś/eś zalogowana/y"
+          }
         }
       }
     },
@@ -998,6 +2078,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Congratulation! You are registered. Check your mailbox and confirm your e-mail in order to you'll can sign in."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "おめでとうございます！登録するのはしてました。 メールの受信箱を確認し、メールを確認してログインします。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratulacje! Zostałeś zarejestrowany. Sprawdź skrzynkę mailową i potwierdź e-mail, aby móc się zalogować."
           }
         }
       }
@@ -1010,6 +2102,18 @@
             "state" : "translated",
             "value" : "Account with this e-mail already exists. Please sign in instead."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このメールのアカウントはいます。代わりにサインインして下さい。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konto z takim adresem e-mail już istnieje. Proszę się zalogować."
+          }
         }
       }
     },
@@ -1020,6 +2124,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Login!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン！"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaloguj!"
           }
         }
       }
@@ -1032,6 +2148,18 @@
             "state" : "translated",
             "value" : "Welcome to Pfartists!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pfartistsへようこそ！"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witamy w Pfartists!"
+          }
         }
       }
     },
@@ -1042,6 +2170,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unverified e-mail."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールがベリファイいませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niezweryfikowany e-mail."
           }
         }
       }
@@ -1054,6 +2194,18 @@
             "state" : "translated",
             "value" : "Invalid email address"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールが正しくないです。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niepoprawny adres e-mail."
+          }
         }
       }
     },
@@ -1064,6 +2216,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password accept only letters. These can be Hiragana, Katakana and kanji characters."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポートは字だけ受け入れます。今、ひらがなとカタカナと漢字が出来ます。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło przyjmuje tylko litery. Mogą to być znaki Hiragany, Katakany i kanji."
           }
         }
       }
@@ -1076,6 +2240,18 @@
             "state" : "translated",
             "value" : "Password is too short. Must have a minimum 9 letters."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポートが短すぎまあす。 最大限九字をなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło jest za krótkie. Musi mieć minimum 9 znaków."
+          }
         }
       }
     },
@@ -1086,6 +2262,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password must have at least 1 big letter."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポート少なくとも一大きいでなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło musi zawierać conajmniej jedną dużą literę."
           }
         }
       }
@@ -1098,6 +2286,18 @@
             "state" : "translated",
             "value" : "Password must have at least 1 number."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポートが少なくとも一ナンバーがでなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło musi mieć conajmniej 1 cyfrę."
+          }
         }
       }
     },
@@ -1108,6 +2308,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password must include at least 1 special character: #?!@$%^&*-"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスポートが少なくとも一特殊文字を含めることが出来ます: #?!@$%^&*-"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło musi zawierać conajmniej 1 znak specjalny: #?!@$%^&*-"
           }
         }
       }
@@ -1120,6 +2332,18 @@
             "state" : "translated",
             "value" : "Pseudonym accept only letters. These can be Hiragana, Katakana and kanji characters"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名は字だけ受け入れます。今、ひらがなとカタカナと漢字が出来ます。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonym przyjmuje tylko litery. Mogą to być znaki Hiragany, Katakany i kanji"
+          }
         }
       }
     },
@@ -1130,6 +2354,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pseudonym is too long. Must have a maximum 15 letters."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名が長すぎる。最大限十五字をなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonym jest za długi. Maksymalnie musi mieć 15 znaków."
           }
         }
       }
@@ -1142,6 +2378,18 @@
             "state" : "translated",
             "value" : "Pseudonym is too short."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名が短すぎまあす。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonym jest za krótki."
+          }
         }
       }
     },
@@ -1152,6 +2400,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pseudonym must have at least 1 number."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名が少なくとも一ナンバーがでなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonym musi mieć conajmniej 1 cyfrę."
           }
         }
       }
@@ -1164,6 +2424,18 @@
             "state" : "translated",
             "value" : "Pseudonym must include at least 1 special character: #?!@$%^&*-＃？！＄％＆＊ー"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名が少なくとも一特殊文字を含めることが出来ます: #?!@$%^&*-＃？！＄％＆＊ー'"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonym musi zawierać conajmniej 1 znak specjalny: #?!@$%^&*-＃？！＄％＆＊ー"
+          }
         }
       }
     },
@@ -1174,6 +2446,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Required"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所要"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wymagane"
           }
         }
       }
@@ -1186,6 +2470,18 @@
             "state" : "translated",
             "value" : "First letter must be a big."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第一字が大きいでなければなりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierwsza litera musi być duża."
+          }
         }
       }
     },
@@ -1196,6 +2492,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name accept only letters. These can be Hiragana, Katakana and kanji characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前は字だけ受け入れます。今、ひらがなとカタカナと漢字が出来ます。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imię przyjmuje tylko litery. Mogą to być znaki Hiragany, Katakany i kanji."
           }
         }
       }
@@ -1208,6 +2516,18 @@
             "state" : "translated",
             "value" : "Name is too short."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前が短すぎまあす。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imię jest za krótkie."
+          }
         }
       }
     },
@@ -1218,6 +2538,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name cannot include numbers."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前がナンバーを含めることが出来ません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imię nie może zawierać cyfr."
           }
         }
       }
@@ -1230,6 +2562,18 @@
             "state" : "translated",
             "value" : "Email password combination is incorrect."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールパスワードの組み合わせが正しくありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombinacja hasła i e-maila jest nieprawidłowa."
+          }
         }
       }
     },
@@ -1240,6 +2584,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Friends"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友達"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przyjaciele"
           }
         }
       }
@@ -1252,6 +2608,18 @@
             "state" : "translated",
             "value" : "Add to friends"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友達まで付け加える"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj do znajomych"
+          }
         }
       }
     },
@@ -1262,6 +2630,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Friend"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友達"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Znajomy"
           }
         }
       }
@@ -1274,6 +2654,18 @@
             "state" : "translated",
             "value" : "Favorite"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulubiony"
+          }
         }
       }
     },
@@ -1284,6 +2676,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You already have 5 favorite friends."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もう五愛用の団体います。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodałeś/aś już 5 znajomych."
           }
         }
       }
@@ -1296,6 +2700,18 @@
             "state" : "translated",
             "value" : "Add to favorite"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用まで付け加える"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj do ulubionych"
+          }
         }
       }
     },
@@ -1306,6 +2722,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can add up to 5 friends."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "五団体まで付け加える出来る。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz dodać do 5 znajomych."
           }
         }
       }
@@ -1318,6 +2746,18 @@
             "state" : "translated",
             "value" : "No favorites"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用がいません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak ulubionych"
+          }
         }
       }
     },
@@ -1328,6 +2768,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No friends"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友達がいません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak znajomych"
           }
         }
       }
@@ -1340,6 +2792,18 @@
             "state" : "translated",
             "value" : "Your animations"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貴職のアニメーション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje animacje"
+          }
         }
       }
     },
@@ -1350,6 +2814,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liked animations"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好きのアニメーション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polubione animacje"
           }
         }
       }
@@ -1362,6 +2838,18 @@
             "state" : "translated",
             "value" : "Liked photos and draws"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好きの写真と素描"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polubione zdjęcia i rysunki"
+          }
         }
       }
     },
@@ -1372,6 +2860,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liked by others"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好きの映画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polubione filmy"
           }
         }
       }
@@ -1384,6 +2884,18 @@
             "state" : "translated",
             "value" : "Your photos and draws"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貴職の写真と素描"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje zdjęcia i rysunki"
+          }
         }
       }
     },
@@ -1394,6 +2906,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your videos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貴職の映画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje filmy"
           }
         }
       }
@@ -1406,6 +2930,18 @@
             "state" : "translated",
             "value" : "Groups"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グループ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy"
+          }
         }
       }
     },
@@ -1416,6 +2952,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groups which you've created"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生み出しました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy, które stworzyłaś/eś"
           }
         }
       }
@@ -1428,6 +2976,18 @@
             "state" : "translated",
             "value" : "Delete Group"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グループは消します"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń grupę"
+          }
         }
       }
     },
@@ -1438,6 +2998,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorite"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulubiona"
           }
         }
       }
@@ -1450,6 +3022,18 @@
             "state" : "translated",
             "value" : "Add to favourite"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用まで付け加える"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj do ulubionych"
+          }
         }
       }
     },
@@ -1460,6 +3044,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can add up to 5 groups."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "五団体まで付け加える出来る。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz dodać do 5 grup."
           }
         }
       }
@@ -1472,6 +3068,18 @@
             "state" : "translated",
             "value" : "You already have 5 favorite groups."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もう五愛用の団体います。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Już masz 5 ulubionych grup."
+          }
         }
       }
     },
@@ -1482,6 +3090,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Join"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "付ける"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołącz"
           }
         }
       }
@@ -1494,6 +3114,18 @@
             "state" : "translated",
             "value" : "Joined"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "付けました"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołączyłeś/aś"
+          }
         }
       }
     },
@@ -1504,6 +3136,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "These are already all groups."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これがもう皆あります。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To już wszystkie grupy."
           }
         }
       }
@@ -1516,6 +3160,18 @@
             "state" : "translated",
             "value" : "Groups list"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リストの団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista grup"
+          }
         }
       }
     },
@@ -1525,7 +3181,19 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "M\\embers"
+            "value" : "Members"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊員"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Członkowie"
           }
         }
       }
@@ -1538,16 +3206,40 @@
             "state" : "translated",
             "value" : "Groups which you manage"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り締ました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy, którymi zarządzasz"
+          }
         }
       }
     },
-    "groups.noAdmin" : {
+    "Groups.noAdmin" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "You've created any group yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ団体が生み出しませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie stworzyłaś/eś jeszcze żadnej grupy."
           }
         }
       }
@@ -1560,6 +3252,18 @@
             "state" : "translated",
             "value" : "No favorite group"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "愛用の団体がありません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak ulubionych grup"
+          }
         }
       }
     },
@@ -1570,6 +3274,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You're not moderators in any group yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだモデレータがいません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obecnie nie jesteś moderatorem żadnej grupy."
           }
         }
       }
@@ -1582,6 +3298,18 @@
             "state" : "translated",
             "value" : "In order to can see a posts, you need to join to the group."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加が見られる様に、この団体が付けないと行けない。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby zobaczyć posty musisz dołączyć do grupy."
+          }
         }
       }
     },
@@ -1592,6 +3320,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You didn't join to any group yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ団体まで付けませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie dołączyłaś/eś jeszcze do żadnej grupy."
           }
         }
       }
@@ -1604,6 +3344,18 @@
             "state" : "translated",
             "value" : "Groups which the user've created"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザが生み出しました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy, które użytkownik stworzył"
+          }
         }
       }
     },
@@ -1614,6 +3366,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groups which the user manage"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザが取り締ました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy którymi zarządza"
           }
         }
       }
@@ -1626,6 +3390,18 @@
             "state" : "translated",
             "value" : "User've created any group yet."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザがまだ団体が生み出しませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie stworzył/a jeszcze żadnej grupy"
+          }
         }
       }
     },
@@ -1636,6 +3412,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "User're not moderators in any group yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザがまだモデレータがいません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obecnie nie jest moderatorem żadnej grupy."
           }
         }
       }
@@ -1648,10 +3436,22 @@
             "state" : "translated",
             "value" : "User didn't join to any group yet."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザがまだ団体まで付けませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie dołączył/a jeszcze do żadnej grupy."
+          }
         }
       }
     },
-    "Groups.USer.usersTitle" : {
+    "Groups.User.usersTitle" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1659,16 +3459,40 @@
             "state" : "translated",
             "value" : "Groups user've joined"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーザが付けました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy do których dołączył/a"
+          }
         }
       }
     },
-    "groups.usersTitle" : {
+    "Groups.usersTitle" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groups you've joined"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "付けました団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy, do których dołączyłaś/eś"
           }
         }
       }
@@ -1681,11 +3505,23 @@
             "state" : "translated",
             "value" : "Home"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dom"
+          }
         }
       }
     },
     "Home" : {
-
+      "shouldTranslate" : false
     },
     "Home.lastAnimations" : {
       "extractionState" : "manual",
@@ -1694,6 +3530,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last animations"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近のアニメーション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnie animacje"
           }
         }
       }
@@ -1706,6 +3554,18 @@
             "state" : "translated",
             "value" : "Last drawings"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近の描画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnie rysunki"
+          }
         }
       }
     },
@@ -1716,6 +3576,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last others"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近の他"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnie inne"
           }
         }
       }
@@ -1728,6 +3600,18 @@
             "state" : "translated",
             "value" : "Last photos"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近の写真"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnie zdjęcia"
+          }
         }
       }
     },
@@ -1738,6 +3622,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last videos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近の映画"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnie filmy"
           }
         }
       }
@@ -1750,6 +3646,18 @@
             "state" : "translated",
             "value" : "Add a moderator"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モデレータが付け加える"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj moderatora"
+          }
         }
       }
     },
@@ -1757,6 +3665,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Admin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アドミン"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Admin"
@@ -1772,6 +3692,18 @@
             "state" : "translated",
             "value" : "Members"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "他人の隊員"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Członkowie"
+          }
         }
       }
     },
@@ -1783,6 +3715,18 @@
             "state" : "translated",
             "value" : "Moderators"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モデレータ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moderatorzy"
+          }
         }
       }
     },
@@ -1790,6 +3734,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Removing a moderator"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モデレータがリムーブ"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Removing a moderator"
@@ -1805,6 +3761,18 @@
             "state" : "translated",
             "value" : "No members"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊員がいません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak członków"
+          }
         }
       }
     },
@@ -1815,6 +3783,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No moderators"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モデレータがいません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak moderatorów"
           }
         }
       }
@@ -1827,6 +3807,18 @@
             "state" : "translated",
             "value" : "More"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Więcej"
+          }
         }
       }
     },
@@ -1837,6 +3829,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "My groups"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私の団体"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje grupy"
           }
         }
       }
@@ -1849,6 +3853,18 @@
             "state" : "translated",
             "value" : "Account"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アカウント"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konto"
+          }
         }
       }
     },
@@ -1859,6 +3875,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Groups"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グループ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupy"
           }
         }
       }
@@ -1871,6 +3899,18 @@
             "state" : "translated",
             "value" : "Log In"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サインイン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaloguj"
+          }
         }
       }
     },
@@ -1881,6 +3921,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign out"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サインアウト"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyloguj"
           }
         }
       }
@@ -1893,6 +3945,18 @@
             "state" : "translated",
             "value" : "Sign up"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サインアップ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zarejestruj"
+          }
         }
       }
     },
@@ -1903,6 +3967,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New File"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しのファイル"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowy plik"
           }
         }
       }
@@ -1915,6 +3991,18 @@
             "state" : "translated",
             "value" : "File"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイル"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plik"
+          }
         }
       }
     },
@@ -1925,6 +4013,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adding a file"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルが追加"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj plik"
           }
         }
       }
@@ -1937,6 +4037,18 @@
             "state" : "translated",
             "value" : "File hasn't been uploaded."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File hasn't been uploaded."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plik nie został wysłany."
+          }
         }
       }
     },
@@ -1947,6 +4059,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "File has been uploaded."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File has been uploaded."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plik został wysłany."
           }
         }
       }
@@ -1959,6 +4083,18 @@
             "state" : "translated",
             "value" : "Button for sending a new password"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいパスワードを送信するボタン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "przycisk do wysłania nowego hasła"
+          }
         }
       }
     },
@@ -1969,6 +4105,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write new password."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいパスワードを入力してください。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz nowe hasło."
           }
         }
       }
@@ -1981,6 +4129,18 @@
             "state" : "translated",
             "value" : "You changed your password"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを変更した。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmieniłaś/eś swoje hasło."
+          }
         }
       }
     },
@@ -1991,6 +4151,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードの更新"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizacja hasła"
           }
         }
       }
@@ -2003,6 +4175,18 @@
             "state" : "translated",
             "value" : "Add post"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加が追加する"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj post"
+          }
         }
       }
     },
@@ -2013,6 +4197,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adding a description for new post"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい追加に叙述立項"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodanie opisu dla nowego postu"
           }
         }
       }
@@ -2025,6 +4221,18 @@
             "state" : "translated",
             "value" : "Adding a title for new post"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい追加に名称立項"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodanie tytułu dla nowego postu"
+          }
         }
       }
     },
@@ -2035,6 +4243,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tytuł"
           }
         }
       }
@@ -2047,6 +4267,18 @@
             "state" : "translated",
             "value" : "sending first data"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sending first data."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wysyłanie pierwszych danych"
+          }
         }
       }
     },
@@ -2057,6 +4289,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profile hasn't been updated."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile hasn't been updated."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil nie został zaktualizowany."
           }
         }
       }
@@ -2069,6 +4313,18 @@
             "state" : "translated",
             "value" : "Name"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imię"
+          }
         }
       }
     },
@@ -2079,6 +4335,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profile has been updated."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile has been updated."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil został zaktualizowany"
           }
         }
       }
@@ -2091,6 +4359,18 @@
             "state" : "translated",
             "value" : "Adding your name and pseudonym"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adding your name and pseudonym"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj swoje imię i pseudonim"
+          }
         }
       }
     },
@@ -2101,6 +4381,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No regulation"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レギュレーションがありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak regulaminu"
           }
         }
       }
@@ -2113,6 +4405,18 @@
             "state" : "translated",
             "value" : "Nothing found"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何も見つからない"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nic nie znaleziono"
+          }
         }
       }
     },
@@ -2123,6 +4427,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "button to update the password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "button to update the password"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "przycisk do aktualizacji hasła"
           }
         }
       }
@@ -2135,6 +4451,18 @@
             "state" : "translated",
             "value" : "Passwords aren't the same."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwords aren't the same."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasła nie są takie same"
+          }
         }
       }
     },
@@ -2145,6 +4473,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The password has been updated."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The password has been updated."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasło zostało zaktualizowane"
           }
         }
       }
@@ -2157,6 +4497,18 @@
             "state" : "translated",
             "value" : "Plans"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プラン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plany"
+          }
         }
       }
     },
@@ -2167,6 +4519,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "to like"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好き"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lubić"
           }
         }
       }
@@ -2179,6 +4543,18 @@
             "state" : "translated",
             "value" : "liked"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好きだ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "polubione"
+          }
         }
       }
     },
@@ -2189,6 +4565,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No posts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加がありません"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak postów"
           }
         }
       }
@@ -2201,6 +4589,18 @@
             "state" : "translated",
             "value" : "To learn about plans, click this "
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計画を知る様に、この "
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby dowiedzieć się o planach, kliknij ten "
+          }
         }
       }
     },
@@ -2208,6 +4608,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "がクリックします。"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "."
@@ -2223,6 +4635,18 @@
             "state" : "translated",
             "value" : "link"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リンク"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "link"
+          }
         }
       }
     },
@@ -2233,6 +4657,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change a subscription"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サブスクリプションが変わります"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień subskrypcję"
           }
         }
       }
@@ -2245,6 +4681,18 @@
             "state" : "translated",
             "value" : "You didn't choose plan."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プランが選びませんでした。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie wybrałaś/eś planu."
+          }
         }
       }
     },
@@ -2255,6 +4703,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizuj"
           }
         }
       }
@@ -2267,6 +4727,18 @@
             "state" : "translated",
             "value" : "Profile"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロフィール"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil"
+          }
         }
       }
     },
@@ -2277,6 +4749,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "About me"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貴職は"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O mnie"
           }
         }
       }
@@ -2289,6 +4773,18 @@
             "state" : "translated",
             "value" : "Updating pseudonym and description button"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating pseudonym and description button"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizacja pseudonimu i opisu użytkownika"
+          }
         }
       }
     },
@@ -2299,6 +4795,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "default avatar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "default avatar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "domyślny avatar"
           }
         }
       }
@@ -2311,6 +4819,18 @@
             "state" : "translated",
             "value" : "Profile hasn't been updated."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile hasn't been updated."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil nie został zaktualizowany."
+          }
         }
       }
     },
@@ -2321,6 +4841,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "save"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セーブ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz"
           }
         }
       }
@@ -2333,6 +4865,18 @@
             "state" : "translated",
             "value" : "Profile has been updated."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile has been updated."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profil zaktualizowany"
+          }
         }
       }
     },
@@ -2340,6 +4884,18 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avatar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avatar"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "avatar"
@@ -2355,6 +4911,18 @@
             "state" : "translated",
             "value" : "Profile photo"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロフィールの写真"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcie profilowe"
+          }
         }
       }
     },
@@ -2365,6 +4933,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pseudonym"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あだ名"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pseudonim"
           }
         }
       }
@@ -2377,6 +4957,18 @@
             "state" : "translated",
             "value" : "regulation"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "レギュレーション"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regulamin"
+          }
         }
       }
     },
@@ -2387,6 +4979,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password reset failed. Please try again."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードのリセットに失敗しました。もう一度やり直してください。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resetowanie hasła nie powiodło się. Proszę spróbować ponownie."
           }
         }
       }
@@ -2399,6 +5003,18 @@
             "state" : "translated",
             "value" : "Password reset successful!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードのリセットに成功しました！"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resetowanie hasła zakończone sukcesem!"
+          }
         }
       }
     },
@@ -2409,6 +5025,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Values aren't the same."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "価値観は同じではありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pola nie mają tej samej wartości."
           }
         }
       }
@@ -2421,6 +5049,18 @@
             "state" : "translated",
             "value" : "Search"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szukaj"
+          }
         }
       }
     },
@@ -2431,6 +5071,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search results for: "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成績の探し物："
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyniki wyszukiwania dla: "
           }
         }
       }
@@ -2443,11 +5095,23 @@
             "state" : "translated",
             "value" : "Send"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "送る"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyślij"
+          }
         }
       }
     },
     "Settings" : {
-
+      "shouldTranslate" : false
     },
     "Settings.appearance" : {
       "extractionState" : "manual",
@@ -2456,6 +5120,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appearance"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外観"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygląd"
           }
         }
       }
@@ -2468,6 +5144,18 @@
             "state" : "translated",
             "value" : "Dark mode"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗いのモード"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciemny motyw"
+          }
         }
       }
     },
@@ -2478,6 +5166,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DARK"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗い"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CIEMNY"
           }
         }
       }
@@ -2490,6 +5190,18 @@
             "state" : "translated",
             "value" : "LIGHT"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "明るい"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JASNY"
+          }
         }
       }
     },
@@ -2500,6 +5212,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
           }
         }
       }
@@ -2512,6 +5236,18 @@
             "state" : "translated",
             "value" : "Tags"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tagi"
+          }
         }
       }
     },
@@ -2522,6 +5258,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Portal for artists"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "芸術家に取ってポータル"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portal dla artystów"
           }
         }
       }
@@ -2534,6 +5282,18 @@
             "state" : "translated",
             "value" : "Oops! Something went wrong."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "おっと？！何かが間違っていた。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ups! Coś poszło nie tak."
+          }
         }
       }
     },
@@ -2544,6 +5304,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No your animations."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アニメーションが見つけあせん。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak animacji."
           }
         }
       }
@@ -2556,6 +5328,18 @@
             "state" : "translated",
             "value" : "No your drawings."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描画が見つけあせん。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak rysunków."
+          }
         }
       }
     },
@@ -2566,6 +5350,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No found files."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヒレが見つけません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak plików."
           }
         }
       }
@@ -2578,6 +5374,18 @@
             "state" : "translated",
             "value" : "No your others."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "他が見つけあせん。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak inne."
+          }
         }
       }
     },
@@ -2589,6 +5397,18 @@
             "state" : "translated",
             "value" : "No your photos."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真が見つけあせん。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak zdjęć."
+          }
         }
       }
     },
@@ -2599,6 +5419,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No your videos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映画が見つけあせん。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak filmów."
           }
         }
       }
