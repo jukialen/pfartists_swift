@@ -1,17 +1,15 @@
-//
-//  pfartists_swiftApp.swift
-//  pfartists_swift
-//
-//  Created by Piotr prom on 2025/02/24.
-//
-
 import SwiftUI
 
 @main
 struct pfartists_swiftApp: App {
+  @StateObject private var colorSchemeManager = ColorSchemeManager()
+  @StateObject private var userState = UserState()
+  
   var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+    WindowGroup {
+      ContentView()
+        .environmentObject(colorSchemeManager)
+        .environmentObject(userState)
     }
+  }
 }

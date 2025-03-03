@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+  @EnvironmentObject var userState: UserState
   
-    var body: some View {
-       Start()
+  var body: some View {
+    if userState.isLoggedIn {
+      Start()
+    } else {
+      Welcome()
     }
+  }
 }
 
 #Preview {

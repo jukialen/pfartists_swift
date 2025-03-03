@@ -14,6 +14,10 @@
 		882F106D2D6DCB7700EFC242 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 882F106C2D6DCB7700EFC242 /* PostgREST */; };
 		882F106F2D6DCB7700EFC242 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 882F106E2D6DCB7700EFC242 /* Realtime */; };
 		882F10712D6DCB7700EFC242 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 882F10702D6DCB7700EFC242 /* Storage */; };
+		888D0F5D2D75FCB800B59D5D /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5C2D75FCB800B59D5D /* Config.plist */; };
+		888D0F5E2D75FCB800B59D5D /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5C2D75FCB800B59D5D /* Config.plist */; };
+		888D0F602D75FD6C00B59D5D /* update_config.sh in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5F2D75FD6900B59D5D /* update_config.sh */; };
+		888D0F612D75FD6C00B59D5D /* update_config.sh in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5F2D75FD6900B59D5D /* update_config.sh */; };
 		88EF5FE72D6DCF0600605DB8 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 88EF5FE62D6DCF0600605DB8 /* Supabase */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,8 @@
 		881D48DA2D6C85C100F7C0AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		881D48DB2D6C85C100F7C0AB /* pfartists_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pfartists_swift.entitlements; sourceTree = "<group>"; };
 		881D48DC2D6C85C100F7C0AB /* pfartists_swiftApp.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = pfartists_swiftApp.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		888D0F5C2D75FCB800B59D5D /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		888D0F5F2D75FD6900B59D5D /* update_config.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = update_config.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,14 +59,17 @@
 				Settings/View/Settings.swift,
 				Settings/ViewModel/SettingsVM.swift,
 				Start/Start.swift,
+				Welcome/View.swift,
 			);
 			target = 881D48872D6C7E2B00F7C0AB /* pfartists_swift */;
 		};
 		881D48F42D6C985400F7C0AB /* Exceptions for "Utils" folder in "pfartists_swift" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				ColorSchemeManager/ColorSchemeManager.swift,
 				KeychainManager.swift,
 				Types/global_types.swift,
+				UserState/UserState.swift,
 			);
 			target = 881D48872D6C7E2B00F7C0AB /* pfartists_swift */;
 		};
@@ -154,6 +163,8 @@
 		881D487F2D6C7E2B00F7C0AB = {
 			isa = PBXGroup;
 			children = (
+				888D0F5F2D75FD6900B59D5D /* update_config.sh */,
+				888D0F5C2D75FCB800B59D5D /* Config.plist */,
 				881D48DD2D6C85C100F7C0AB /* pfartists_swift */,
 				881D489C2D6C7E2D00F7C0AB /* pfartists_swiftTests */,
 				881D48A62D6C7E2D00F7C0AB /* pfartists_swiftUITests */,
@@ -335,6 +346,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888D0F5E2D75FCB800B59D5D /* Config.plist in Resources */,
+				888D0F612D75FD6C00B59D5D /* update_config.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888D0F5D2D75FCB800B59D5D /* Config.plist in Resources */,
+				888D0F602D75FD6C00B59D5D /* update_config.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = " ";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -502,6 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = " ";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -515,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = pfartists_swift/pfartists_swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -523,6 +541,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Pfartists;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -554,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = pfartists_swift/pfartists_swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -562,6 +584,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Pfartists;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
