@@ -1473,6 +1473,9 @@
         }
       }
     },
+    "email" : {
+
+    },
     "EmailVerification.expired" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3497,6 +3500,9 @@
         }
       }
     },
+    "Hello, World!" : {
+
+    },
     "home" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3637,6 +3643,9 @@
           }
         }
       }
+    },
+    "Login" : {
+
     },
     "Members.addModAria" : {
       "extractionState" : "manual",
@@ -4420,6 +4429,9 @@
         }
       }
     },
+    "password" : {
+
+    },
     "PasswordAccount.buttonAria" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4949,6 +4961,16 @@
         }
       }
     },
+    "registration" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "registration"
+          }
+        }
+      }
+    },
     "regulation" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5296,6 +5318,9 @@
           }
         }
       }
+    },
+    "Witaj w świecie artystów" : {
+
     },
     "ZeroFiles.animations" : {
       "extractionState" : "manual",
