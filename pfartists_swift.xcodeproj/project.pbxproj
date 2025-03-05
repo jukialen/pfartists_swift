@@ -14,6 +14,7 @@
 		882F106D2D6DCB7700EFC242 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 882F106C2D6DCB7700EFC242 /* PostgREST */; };
 		882F106F2D6DCB7700EFC242 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 882F106E2D6DCB7700EFC242 /* Realtime */; };
 		882F10712D6DCB7700EFC242 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 882F10702D6DCB7700EFC242 /* Storage */; };
+		8832AEAC2D788D7800634EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881D48D92D6C85C100F7C0AB /* Assets.xcassets */; };
 		888D0F5D2D75FCB800B59D5D /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5C2D75FCB800B59D5D /* Config.plist */; };
 		888D0F5E2D75FCB800B59D5D /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5C2D75FCB800B59D5D /* Config.plist */; };
 		888D0F602D75FD6C00B59D5D /* update_config.sh in Resources */ = {isa = PBXBuildFile; fileRef = 888D0F5F2D75FD6900B59D5D /* update_config.sh */; };
@@ -56,10 +57,12 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Home/View/Home.swift,
+				Login/View/Login.swift,
 				Settings/View/Settings.swift,
 				Settings/ViewModel/SettingsVM.swift,
+				SignUp/View/SignUp.swift,
 				Start/Start.swift,
-				Welcome/View.swift,
+				Welcome/Welcome.swift,
 			);
 			target = 881D48872D6C7E2B00F7C0AB /* pfartists_swift */;
 		};
@@ -348,6 +351,7 @@
 			files = (
 				888D0F5E2D75FCB800B59D5D /* Config.plist in Resources */,
 				888D0F612D75FD6C00B59D5D /* update_config.sh in Resources */,
+				8832AEAC2D788D7800634EA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

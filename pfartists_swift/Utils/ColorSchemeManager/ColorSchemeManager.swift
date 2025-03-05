@@ -7,18 +7,9 @@ enum ColorSchemeOption: String, CaseIterable {
 }
 
 class ColorSchemeManager: ObservableObject {
-    @Published var selectedOption: ColorSchemeOption = .system
-    
-    @Environment(\.colorScheme) var systemColorScheme: ColorScheme
-    
-    var currentColorScheme: ColorScheme {
-        switch selectedOption {
-        case .system:
-            return systemColorScheme
-        case .light:
-            return .light
-        case .dark:
-            return .dark
-        }
-    }
+  @Published var selectedOption: ColorSchemeOption = .system
+  
+  func changeColor() {
+    selectedOption = selectedOption == .light ? .dark : .light
+  }
 }
