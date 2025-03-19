@@ -59,9 +59,10 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Common/ExternalImage.swift,
+				Common/Providers/Model/ProvidersModel.swift,
 				Common/Providers/ProviderButton.swift,
 				Common/Providers/ProviderButtons.swift,
-				Common/Providers/ViewModel/Providers.swift,
+				Common/Providers/ViewModel/ProvidersViewModel.swift,
 				Common/RegInfo.swift,
 				Common/RegLogForms.swift,
 				Forgotten/View/Forgotten.swift,

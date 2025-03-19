@@ -1,15 +1,28 @@
 import SwiftUI
 
 struct ProviderButton: View {
+  let providersLogin = Providers()
+
   var icon_name = ""
   var color_name = ""
-  func login() {
-    print("Button 1 clicked")
+  func login() async {
+    switch icon_name {
+      case "google_icon":
+        await providersLogin.googleLogin()
+      case "spotify_icon":
+        await providersLogin.spotifyLogin()
+      case "discord_icon":
+        await providersLogin.discordLogin()
+      default:
+        print("Unknown icon")
+    }
   }
   
     var body: some View {
       Button(action: {
-        login()
+        Task {
+          await login()
+        }
       }) {
         Image(icon_name)
           .resizable()

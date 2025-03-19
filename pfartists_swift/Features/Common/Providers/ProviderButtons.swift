@@ -1,24 +1,28 @@
 import SwiftUI
 
-struct ProviderButtons: View {
-  let provider_data = [
-    "google": ["icon_name": "google_icon", "color_name": "Google"],
-    "spotify": ["icon_name": "spotify_icon", "color_name": "Spotify"],
-    "discord": ["icon_name": "discord_icon", "color_name": "Discord"]
-  ]
+struct ProviderButtons: View {  
+  var provider_data: [ProviderType] {
+    [
+      ProviderType(iconName: "google_icon", colorName: "Google"),
+      ProviderType(iconName: "spotify_icon", colorName: "Spotify"),
+      ProviderType(iconName: "discord_icon", colorName: "Discord")
+    ]
+  }
   
     var body: some View {
       HStack(
         alignment: .center
       ) {
-          ForEach(provider_data.keys.sorted(), id: \.self) { item in
+        ForEach(provider_data, id: \.iconName) { provider in
+          VStack(spacing: 20) {
             Spacer()
             ProviderButton(
-              icon_name: provider_data[item]!["icon_name"]!,
-              color_name: provider_data[item]!["color_name"]!
+              icon_name: provider.iconName,
+              color_name: provider.colorName
             )
             .padding()
-          Spacer()
+            Spacer()
+          }
         }
       }
       .frame(height: 40)
