@@ -22,7 +22,8 @@
             "value" : "Polityką Prywatności"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Account.Data.actualEmail" : {
       "extractionState" : "manual",
@@ -1473,9 +1474,6 @@
         }
       }
     },
-    "email" : {
-
-    },
     "EmailVerification.expired" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1679,6 +1677,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapomniałeś/aś hasła?"
+          }
+        }
+      }
+    },
+    "Form.acceptInfoFour" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プライバシーポリシー"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polityką Prywatności"
           }
         }
       }
@@ -3644,7 +3664,7 @@
         }
       }
     },
-    "Login" : {
+    "Image not found" : {
 
     },
     "Members.addModAria" : {
@@ -4429,9 +4449,6 @@
         }
       }
     },
-    "password" : {
-
-    },
     "PasswordAccount.buttonAria" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4957,16 +4974,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pseudonim"
-          }
-        }
-      }
-    },
-    "registration" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "registration"
           }
         }
       }
