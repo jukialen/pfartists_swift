@@ -1,30 +1,35 @@
 import SwiftUI
+import Foundation
 
 struct Login: View {
-  @State private var email: String = ""
-  @State private var password: String = ""
-   private var emailFieldIsFocused: Bool = false
-  
-  @State private var showSheet = false
-  func validate () {
-    print(email, password)
-  }
-  
+  @State private var showForgottenSheet = false
+
   var body: some View {
-    VStack {
-      Button("registration"){
-        showSheet.toggle()
+      GeometryReader { geometry in
+        VStack {
+          RegLogForms(regBool: false)
+//            .frame(maxWidth: .infinity, maxHeight: .infinity)
+
+          Button(action: { showForgottenSheet.toggle() }) {
+            Text("Form.forgottenPasswordLink")
+          }
+          .padding()
+          .foregroundStyle(Color("Third"))
+          .foregroundColor(.black)
+          .clipShape(Capsule())
+          .sheet(isPresented: $showForgottenSheet) {
+            Forgotten()
+          }
+          .frame(height: geometry.size.height * 0.08)
+          RegInfo()
+            .frame(height: geometry.size.height * 0.08)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .navigationTitle(Text("Form.titleOfLogin"))
       }
-      .padding()
-      .background(Color("Third"))
-      .foregroundColor(.black)
-      .cornerRadius(10)
-    }.sheet(isPresented: $showSheet) {
-      SignUp()
     }
-    .navigationTitle("Login")
 }
-}
+
 #Preview {
     Login()
 }
