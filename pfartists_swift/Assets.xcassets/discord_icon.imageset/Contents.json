@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Discord-Symbol-Blurple.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Discord-Symbol-Blurple 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Discord-Symbol-Blurple 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
