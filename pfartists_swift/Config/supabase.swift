@@ -1,26 +1,20 @@
 import Supabase
 import Foundation
-import SwiftDotenv
 
 class SupClient {
   var supabaseClientId: String?
   var supabaseKey: String?
   var client: SupabaseClient?
-  
+  var auth: AuthClient?
+  let constants = Constants.shared.loadConfig()
   enum UserResult {
     case user(UserType)
     case noUser
   }
   
   init() {
-    if let config = loadConfig(),
-       let clientId = config["SupabaseURL"] as? String, let key = config["SupabaseKey"] as? String {
-      self.supabaseClientId = clientId
-      self.supabaseKey = key
-      print("Poświadczenia Supabase zostały załadowane pomyślnie.")
-    } else {
-      print("Nie udało się załadować poświadczeń Supabase z konfiguracji.")
-    }
+    self.supabaseClientId = constants!["SupabaseURL"]
+    self.supabaseKey = constants!["SupabaseKey"]
   }
   
   func initializeSupabaseClient() {
@@ -30,18 +24,11 @@ class SupClient {
     }
     
     self.client = SupabaseClient(supabaseURL: url, supabaseKey: key)
+    self.auth = self.client?.auth
     print("SupabaseClient został zainicjalizowany pomyślnie.")
   }
   
-  private func loadConfig() -> [String: Any]? {
-    if let url = Bundle.main.url(forResource: "Config", withExtension: "plist"),
-       let data = try? Data(contentsOf: url),
-       let plist = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil),
-       let config = plist as? [String: Any] {
-      return config
-    }
-    return nil
-  }
+ 
     
   func userExist() async -> User? {
     initializeSupabaseClient()
