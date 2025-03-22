@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Welcome: View {
   @EnvironmentObject var colorSchemeManager: ColorSchemeManager
-  
+    
   func testPAth() {
     if let path = Bundle.main.path(forResource: "Resources/AppIcon/PfA", ofType: "png") {
         print("Path exists: \(path)")

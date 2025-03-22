@@ -77,7 +77,6 @@ struct RegLogForms: View {
          height: geometry.size.height * 0.5
         )
         .padding(.horizontal, 20)
-//        .background(.green)
         VStack (alignment: .center, spacing: 0) {
           Text(regBool == false ? "Form.providerTitleLogin" : "Form.providerTitleRegistration")
             .font(.headline)
@@ -88,7 +87,6 @@ struct RegLogForms: View {
           width: geometry.size.width,
                height: geometry.size.height * 0.3
         )
-//        .background(.blue)
       }
       .frame(height: geometry.size.height)
       .scrollContentBackground(.hidden)
