@@ -3520,9 +3520,6 @@
         }
       }
     },
-    "Hello, World!" : {
-
-    },
     "home" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3545,9 +3542,6 @@
           }
         }
       }
-    },
-    "Home" : {
-      "shouldTranslate" : false
     },
     "Home.lastAnimations" : {
       "extractionState" : "manual",
@@ -3663,9 +3657,6 @@
           }
         }
       }
-    },
-    "Image not found" : {
-
     },
     "Members.addModAria" : {
       "extractionState" : "manual",
@@ -5139,9 +5130,6 @@
         }
       }
     },
-    "Settings" : {
-      "shouldTranslate" : false
-    },
     "Settings.appearance" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5257,6 +5245,29 @@
         }
       }
     },
+    "subTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the artist's world"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "世界の芸術家たちへようこそ"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witamy w świecie artystów"
+          }
+        }
+      }
+    },
     "tags" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5325,9 +5336,6 @@
           }
         }
       }
-    },
-    "Witaj w świecie artystów" : {
-
     },
     "ZeroFiles.animations" : {
       "extractionState" : "manual",
