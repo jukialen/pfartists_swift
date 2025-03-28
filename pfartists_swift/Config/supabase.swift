@@ -5,7 +5,7 @@ class SupClient {
   var supabaseClientId: String?
   var supabaseKey: String?
   var client: SupabaseClient?
-  var auth: AuthClient?
+  var authClient: AuthClient?
   let constants = Constants.shared.loadConfig()
   enum UserResult {
     case user(UserType)
@@ -31,19 +31,21 @@ class SupClient {
         }
     print("SupabaseClient został zainicjalizowany pomyślnie.")
   }
-  
- 
+
+  func getSession() async {
+    do {
+      let result = try await authClient?.session
+      print("Session: \(String(describing: result?.user))")
+    } catch {
+      print("Session error: \(error.localizedDescription)")
+    }
+  }
     
   func userExist() async -> User? {
     initializeSupabaseClient()
-    
-    guard let client = client else {
-      print("SupabaseClient nie został zainicjalizowany.")
-      return nil
-    }
-    
+        
     do {
-      let user: User? = try await client.auth.user()
+      let user: User? = try await authClient?.user()
       if let user = user {
         print("Użytkownik: \(user)")
         return user
@@ -59,7 +61,6 @@ class SupClient {
     
   func userData() async -> UserResult {
     guard let user = await userExist() else {
-      print("Brak zalogowanego użytkownika.")
       return .noUser
     }
     
