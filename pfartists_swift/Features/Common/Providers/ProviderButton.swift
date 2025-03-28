@@ -1,18 +1,18 @@
 import SwiftUI
 
 struct ProviderButton: View {
-  let providersLogin = Providers()
-
+//  @EnvironmentObject var userState: UserState
+  let providersViewModel = ProvidersViewModel(userState: UserState())
   var icon_name = ""
   var color_name = ""
   func login() async {
     switch icon_name {
       case "google_icon":
-        await providersLogin.googleLogin()
+        await providersViewModel.googleLogin()
       case "spotify_icon":
-        await providersLogin.spotifyLogin()
+        await providersViewModel.spotifyLogin()
       case "discord_icon":
-        await providersLogin.discordLogin()
+        await providersViewModel.discordLogin()
       default:
         print("Unknown icon")
     }
