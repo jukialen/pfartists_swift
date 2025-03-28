@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// A view model that handles validation for a specific input.
+/// A view model that handles validation for a specific inputs.
 class RegLogFormsViewModel: ObservableObject {
   @Published var email: String = ""
   @Published var password: String = ""
@@ -49,9 +49,10 @@ class RegLogFormsViewModel: ObservableObject {
     }
   }
 
-  func validateForm() {
+  func validateForm() -> Bool {
     validateEmail()
     validatePassword()
+    return emailError == nil && passwordError == nil
   }
   
   func registration() async {
@@ -72,20 +73,23 @@ class RegLogFormsViewModel: ObservableObject {
   func login() async {
     let userState = UserState()
 
-//    validateForm()
+    let result = validateForm()
     print("Logging in with Email: \(email) and Password: \(password)")
     
-    do {
-      if let client = client {
-        let user = try await client.auth
-          .signIn( email: email, password: password )
-        //          .user
-        
-        print("user, \(user)")
-        userState.logIn()
+    if (result) {
+      do {
+        if let client = client {
+          let user = try await client.auth
+            .signIn( email: email, password: password )
+          
+          print("user, \(user)")
+          userState.logIn()
+        }
+      } catch {
+        print(error.localizedDescription)
       }
-    } catch {
-      print(error.localizedDescription)
+    } else {
+      print("Form is not valid")
     }
   }
 }

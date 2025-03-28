@@ -1,3 +1,3 @@
-enum Field {
+enum RegLogFormsFieldModel {
      case email, password
  }

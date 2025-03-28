@@ -3,17 +3,23 @@ import Foundation
 
 struct RegLogForms: View {
   @State private var isPasswordHidden: Bool = true
-  @State private var showFullScreenCover: Bool = false
-  
+  @State private var showSheet: Bool = false
+
   @StateObject private var regLogFormsViewModel = RegLogFormsViewModel()
-  @FocusState private var focusedField: Field?
-  
-  var regBool: Bool = true
-    
+  @FocusState private var focusedField: RegLogFormsFieldModel?
+
+  var regBool: Bool
+
+  func openRegistrationNextStage() {
+    regLogFormsViewModel.validateForm() ? showSheet = regBool : print("Niepoprawny dane rejestracji")
+  }
+
   func submit() async {
-    await regBool == true ? showFullScreenCover = regBool : regLogFormsViewModel
+    print("regBool, \(regBool)")
+    await regBool == true ? showSheet = regBool : regLogFormsViewModel
       .login()
   }
+
   var body: some View {
     GeometryReader { geometry in
       VStack(spacing: 0) {
@@ -88,8 +94,6 @@ struct RegLogForms: View {
               Text(regLogFormsViewModel.passwordError ?? "")
                   .foregroundColor(.red)
                   .font(.caption)
-//                  .frame(minWidth: 5)
-//                  .frame(maxHeight: 32)
             }
             Button(action: { isPasswordHidden.toggle() }) {
               Image(systemName: isPasswordHidden ? "eye.slash" : "eye")
@@ -120,9 +124,9 @@ struct RegLogForms: View {
           .clipShape(Capsule())
           .padding(.vertical, 10)
           .padding(.top, -8)
-//          .fullScreenCover(isPresented: $showFullScreenCover) {
-//              Cos()
-//          }
+          .sheet(isPresented: $showSheet) {
+            RegistrationTwoStageView()
+          }
         }
         .frame(
           width: geometry.size.width * 0.9,
@@ -147,5 +151,5 @@ struct RegLogForms: View {
 }
 
 #Preview {
-    RegLogForms()
+  RegLogForms(regBool: false)
 }
