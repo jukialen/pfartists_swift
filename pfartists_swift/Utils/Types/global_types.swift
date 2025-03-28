@@ -39,7 +39,7 @@ enum IndexType: String {
   case animations
 } 
 
-enum Provider: String, Decodable {
+enum Provider: String, Decodable, Encodable {
   case ewmail
   case google
   case discord
@@ -54,7 +54,7 @@ enum RoleType: String {
   case AUTHOR
 }
 
-enum Plan: String, Decodable {
+enum Plan: String, Decodable, Encodable {
   case FREE
   case PREMIUM
   case GOLD
@@ -74,18 +74,6 @@ struct DateObjectType  {
 }
 
 //USERS
-struct UserType: Decodable, Time {
-  var id: String?
-  var pseudonym: String
-  var description: String?
-  var profilePhoto: String?
-  var email: String
-  var plan: Plan
-  var provider: Provider?
-  var createdAt: String?
-  var updatedAt: String?
-  } 
-
 struct UserFormType {
   var email: String
   var password: String?
