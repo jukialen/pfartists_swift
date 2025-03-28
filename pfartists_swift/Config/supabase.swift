@@ -24,7 +24,11 @@ class SupClient {
     }
     
     self.client = SupabaseClient(supabaseURL: url, supabaseKey: key)
-    self.auth = self.client?.auth
+    if let authClient = self.client?.auth {
+            print("Auth został poprawnie zainicjalizowany: \(authClient)")
+        } else {
+            print("Auth jest nil.")
+        }
     print("SupabaseClient został zainicjalizowany pomyślnie.")
   }
   
