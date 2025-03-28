@@ -20,7 +20,12 @@ class UserState: ObservableObject {
     isLoggedIn = true
   }
   
-  func logOut() {
-    isLoggedIn = false
+  func logOut() async {
+    do {
+      try await supClient.client!.auth.signOut()
+      isLoggedIn = false
+    } catch {
+      print(error.localizedDescription)
+    }
   }
 }
