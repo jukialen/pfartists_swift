@@ -692,6 +692,29 @@
         }
       }
     },
+    "chooseFile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose File"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz plik"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルが追加"
+          }
+        }
+      }
+    },
     "chooseTag" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3520,9 +3543,6 @@
         }
       }
     },
-    "Hello, World!" : {
-
-    },
     "home" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3545,9 +3565,6 @@
           }
         }
       }
-    },
-    "Home" : {
-
     },
     "Home.lastAnimations" : {
       "extractionState" : "manual",
@@ -3663,9 +3680,6 @@
           }
         }
       }
-    },
-    "Image not found" : {
-
     },
     "Members.addModAria" : {
       "extractionState" : "manual",
@@ -5345,9 +5359,6 @@
           }
         }
       }
-    },
-    "Witaj w świecie artystów" : {
-
     },
     "ZeroFiles.animations" : {
       "extractionState" : "manual",
